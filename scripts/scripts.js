@@ -4,12 +4,12 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  speed: 4000,
-  autoplay: {
+  // speed: 4000,
+  // autoplay: {
    
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
   loop: true
 });
 

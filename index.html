@@ -27,7 +27,11 @@
   <header class="header container">
     <div class="header__content ">
       <a href="#" class="header__logo">
-        <img class="header__logo-img" src="img/logo.svg" alt="логотип">
+         <picture>
+          <source srcset="img/logomobile.svg" media="(max-width: 800px)">
+          <img class="header__logo-img" src="img/logo.svg" alt="логотип">
+         </picture>
+        
       </a>
       <nav class="header__nav">
         
@@ -120,7 +124,7 @@
             <div class="swiper__content hero__bg2">
               <div class="hero__info">
                 <span>3 000 ₽</span>
-                <h1 class="hero__title">
+                <h1 class="hero__title hero__title-unzone">
                   Полет на <br> мотопараплане
                 </h1>
                 <button class="hero__btn application__btn btn" data-open>Заказать впечатление</button>               
@@ -380,7 +384,7 @@
           </button>
         </div>
         <picture>
-          <!-- <source srcset="img/aeroplane2.png" media="(max-width: 1100px)"> -->
+          <source srcset="img/aeroplane2.png" media="(max-width: 800px)">
           <img src="img/aeropipe.png" class="stock__img" alt="аэротруба">
          </picture>
         
