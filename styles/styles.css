@@ -1485,6 +1485,11 @@ ul, li, p, h1, h2, h3, h4, a {
 
 }
 @media(max-width:800px) {
+  
+   .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
   .certificate__content {
     display: flex;
