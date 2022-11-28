@@ -386,7 +386,7 @@ ul, li, p, h1, h2, h3, h4, a {
 
 
 .catalog__img {
-  height: 384px;
+  height: auto;
   width: 100%;
 }
 
@@ -1604,5 +1604,14 @@ margin-right: 0;
 
 .general__btn-close svg {
   height: 20px;
+}
+
+.general__left-bottom img {
+  max-width: 90px;
+}
+
+.general__left img {
+  border-radius: 20px;
+  margin-bottom: 12px;
 }
 }
