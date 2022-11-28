@@ -1381,6 +1381,11 @@ ul, li, p, h1, h2, h3, h4, a {
 }
 
 @media(max-width:930px) {
+  
+   .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
   .header__list {
     display: flex;
@@ -1487,8 +1492,8 @@ ul, li, p, h1, h2, h3, h4, a {
 @media(max-width:800px) {
   
    .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .certificate__content {
