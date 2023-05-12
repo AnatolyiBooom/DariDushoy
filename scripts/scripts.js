@@ -4,10 +4,10 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-    speed: 4000,
+    speed: 2000,
     autoplay: {
    
-    delay: 3000,
+    delay: 1500,
     disableOnInteraction: false,
   },
   loop: true
